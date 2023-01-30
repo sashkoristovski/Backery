@@ -1,0 +1,12 @@
+﻿@page
+@model Bakery.Pages.ContactModel
+@{
+}
+
+<form method="post">
+    <label asp-for="From"></label> <input type="text" asp-for="From"/><br>
+    <label asp-for="Email"></label> <input type="text" asp-for="Email"/><br>
+    <label asp-for="Subject" ></label> <input type="text" asp-for="Subject" /><br>
+    <label asp-for="Comments"></label> <textarea asp-for="Comments"></textarea><br>
+    <input type="submit"/>
+</form>
